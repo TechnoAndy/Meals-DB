@@ -8,7 +8,7 @@ const items = async () => {
       data.meals.forEach((element) => {
         document.getElementById(
           'recipe-section',
-        ).innerHTML = `<div class="card">
+        ).innerHTML += `<div class="card">
             <h1 class="title">${element.strMeal}</h1>
             <img src=${element.strMealThumb} alt="img" class="images">
             <button class='comment-btn' type='button'>Comments</button>
