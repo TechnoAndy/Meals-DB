@@ -8,8 +8,12 @@ const items = async () => {
       data.meals.forEach((element) => {
         document.getElementById(
           'recipe-section',
-        ).innerHTML += `<p>${element.strMeal}</p>
-            <img src=${element.strMealThumb} alt="img=" class="images">`;
+        ).innerHTML +=
+        `<div class="card">
+            <h1 class="title">${element.strMeal}</h1>
+            <img src=${element.strMealThumb} alt="img" class="images">
+            <button class='comment-btn' type='button'>Comments</button>
+         </div>`
       });
     }); return 1;
   } catch (error) {
