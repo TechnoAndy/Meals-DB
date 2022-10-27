@@ -14,12 +14,17 @@ header {
 
 .nav-items {
   display: flex;
-  gap: 70px;
-  align-items: center;
+  gap: 50px;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 15px;
+  padding: 10px;
   width: 100%;
+  padding-left: 700px;
+}
+
+.nav-link {
+  box-shadow: 0 0 4px 3px black;
+  padding: .5em;
 }
 
 a {
@@ -47,10 +52,10 @@ main {
   flex-wrap: wrap;
 }
 
-h2 {
+h1 {
   text-align: center;
   font-size: 3rem;
-  margin-bottom: 1.5rem;
+  padding: 1.5rem 1.5em;
 }
 
 .card {
@@ -88,4 +93,86 @@ h2 {
   padding: 2em;
   color: black;
   box-shadow: 0 0 4px 3px black;
+}
+
+.popup-window {
+  border-radius: 2rem;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 2em;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 4px 3px white;
+}
+
+.popup-images {
+  width: 100%;
+  align-items: center;
+}
+
+#close {
+  padding-left: 80%;
+  font-size: 2em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+h2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 15px;
+  width: 100%;
+  font-size: 1.8em;
+}
+
+.item-info p {
+  font-size: 1em;
+  width: 80%;
+  align-items: center;
+  padding-left: 15rem;
+}
+
+.comment-name {
+  border-radius: .5rem;
+  font-size: larger;
+  padding: .5rem 10rem;
+  outline: none;
+  margin: .5em;
+  width: 50%;
+  border: solid 3px black;
+}
+
+.comment-content {
+  border-radius: .5rem;
+  font-size: larger;
+  padding: 2rem 10rem;
+  outline: none;
+  margin: .5em;
+  width: 50%;
+  border: solid 3px black;
+}
+
+.add-comment {
+  border-radius: .5rem;
+  font-size: larger;
+  padding: .5rem 5rem;
+  outline: none;
+  background-color: white;
+  margin: .5em;
+  border: solid 3px black;
+}
+
+.recipe {
+  font-size: 1.3rem;
+}
+.cmt-heading {
+  padding: .5rem .5rem;
+  font-size: 2.5rem;
+}
+
+.spinner {
+  padding: .5rem .5rem;
+  font-size: 2.5rem;
 }
