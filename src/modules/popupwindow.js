@@ -1,5 +1,5 @@
 function showPopup(element) {
-  const popupwindow = document.createElement('div');
+  const popupwindow = document.createElement("div");
   popupwindow.innerHTML = `
     <div class="popup-window">
       <div class="popup-images">
@@ -25,15 +25,15 @@ function showPopup(element) {
       </div>
     </div>
   `;
-const closeBtn = document.createElement('div');
-closeBtn.innerHTML = `<i id="close" class="fa-solid fa-xmark"></i>`;
-closeBtn.classList.add('close-btn');
-closeBtn.addEventListener('click', () => {
-  popupwindow.remove();
-});
+  const closeBtn = document.createElement(div);
+  closeBtn.innerHTML = `<i id="close" class="fa-solid fa-xmark"></i>`;
+  closeBtn.classList.add('close-btn');
+  closeBtn.addEventListener('click', () => {
+    popupwindow.remove();
+  });
 
-popupwindow.firstElementChild.prepend(closeBtn);
-document.body.appendChild(popupwindow);
+  popupwindow.firstElementChild.prepend(closeBtn);
+  document.body.appendChild(popupwindow);
 }
 
 export default showPopup;
