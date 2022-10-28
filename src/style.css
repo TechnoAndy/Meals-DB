@@ -144,12 +144,12 @@ h2 {
 
 .item-info {
   display: flex;
-  font-size: .8em;
+  font-size: 0.8em;
   padding-top: 2em;
 }
 
 .comment-name {
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   font-size: larger;
   padding: 0.5rem 10rem;
   margin: 0.5em;
