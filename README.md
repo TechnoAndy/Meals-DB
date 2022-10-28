@@ -52,7 +52,7 @@ To check for functionality with automated test run `npm test`
 
 -Twitter: @Adiegaardt
 
--LinkedIn: Andrea Diegaardt
+-LinkedIn: www.linkedin.com/in/andrea-diegaardt-110203116
 
 👤 **Author**
 
