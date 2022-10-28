@@ -36,4 +36,5 @@ function showPopup(element) {
   document.body.appendChild(popupwindow);
 }
 
+
 export default showPopup;
