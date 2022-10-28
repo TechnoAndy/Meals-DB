@@ -26,7 +26,7 @@ function showPopup(element) {
     </div>
   `;
   const closeBtn = document.createElement('div');
-  closeBtn.innerHTML = `<i id='close' class='fa-solid fa-xmark'></i>`;
+  closeBtn.innerHTML = `<i id="close" class="fa-solid fa-xmark"></i>`;
   closeBtn.classList.add('close-btn');
   closeBtn.addEventListener('click', () => {
     popupwindow.remove();
