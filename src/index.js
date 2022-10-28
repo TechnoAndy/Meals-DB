@@ -1,7 +1,6 @@
 import showPopup from './modules/popupwindow.js';
 import './style.css';
 
-
 const items = async () => {
   try {
     fetch(
