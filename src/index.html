@@ -14,7 +14,8 @@
   <body>
     <header>
       <nav>
-        <div class="openMenu"><i class="fa-solid fa-bars"></i></div>
+        <!-- <div class="openMenu"><i class="fa-solid fa-bars"></i></div> -->
+        <div class="logo">Logo</div>
         <ul class="nav-items">
           <li class="item"><a class="nav-link item-count" href="./index.html">Home</a></li>
           <li class="item">
@@ -28,7 +29,7 @@
           <li class="item">
             <a class="nav-link" href="#contact" id="contactSection">Contact</a>
           </li>
-          <li class="closeMenu"><i class="fa-solid fa-xmark"></i></li>
+          <!-- <li class="closeMenu"><i class="fa-solid fa-xmark"></i></li> -->
         </ul>
       </nav>
     </header>
@@ -37,31 +38,12 @@
     <main>
       <section>
         <div class="tagline">
-          <h2>THE LATEST MEALS</h2>
+          <h1>THE LATEST MEALS</h1>
         </div>
         <div id="recipe-section" class="recipe-cards"></div>
       </div>
       </section>
-      <section class="popup-container hidden">
-        <div class="popup-window">
-          <div class="close-btn">
-            <i id="close" class="fa-solid fa-xmark"></i>
-          </div>
-          <div class="popup-image">
-            <img src="" alt="popup-image" />
-          </div>
-          <div class="item-info">
-            <h3 class="dish-name"></h3>
-            <p class="recipe"></p>
-          </div>
-          <div class="comments-container">
-            <h4></h4>
-            <div class="comment-content">
-              <ul class="comments-generator"></ul>
-            </div>
-            <span id="comments-spinner" class="spinner"></span>
-          </div>
-          <div class="add-comment"></div>
+      <section id="popup-container">
         </div>
       </section>
     </main>

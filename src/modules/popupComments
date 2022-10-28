@@ -1,0 +1,2 @@
+const commentsApi = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/hMJj5ZQ3ZiHfSKK9hl/comments?item_id=${id}';
+

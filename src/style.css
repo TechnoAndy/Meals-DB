@@ -14,12 +14,17 @@ header {
 
 .nav-items {
   display: flex;
-  gap: 70px;
-  align-items: center;
+  gap: 80px;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 15px;
+  padding: 20px;
+  padding-top: 10px;
   width: 100%;
+}
+
+.nav-link {
+  box-shadow: 0 0 4px 3px black;
+  padding: 0.5em;
 }
 
 a {
@@ -40,17 +45,17 @@ main {
   background-color: black;
 }
 
-.recipe-section {
+.recipe-cards {
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding-right: 1em;
 }
 
-h2 {
+h1 {
   text-align: center;
   font-size: 3rem;
-  margin-bottom: 1.5rem;
+  padding: 1.5rem 1.5em;
 }
 
 .card {
@@ -88,4 +93,99 @@ h2 {
   padding: 2em;
   color: black;
   box-shadow: 0 0 4px 3px black;
+}
+
+.popup-window {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 2rem;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 2em;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 4px 3px white;
+  overflow: auto;
+}
+
+.popup-images {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+#close {
+  padding-left: 80%;
+  font-size: 2em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+h2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 15px;
+  width: 100%;
+  font-size: 2em;
+}
+
+.item-info-1 p {
+  font-size: 1.5em;
+  width: 80%;
+  text-align: center;
+  padding-left: 15rem;
+  align-items: center;
+}
+
+.item-info {
+  display: flex;
+  font-size: 0.8em;
+  padding-top: 2em;
+}
+
+.comment-name {
+  border-radius: 0.5rem;
+  font-size: larger;
+  padding: 0.5rem 10rem;
+  margin: 0.5em;
+  width: 50%;
+  border: solid 3px black;
+}
+
+.comment-content {
+  border-radius: 0.5rem;
+  font-size: larger;
+  padding: 2rem 10rem;
+  margin: 0.5em;
+  width: 50%;
+  border: solid 3px black;
+}
+
+.add-comment {
+  border-radius: 0.5rem;
+  font-size: larger;
+  padding: 0.5rem 0.5rem;
+  outline: none;
+  background-color: white;
+  margin: 0.5em;
+  border: solid 3px black;
+}
+
+.cmt-heading {
+  padding: 0.5rem 0.5rem;
+  font-size: 2.5rem;
+}
+
+.spinner {
+  padding: 0.5rem 0.5rem;
+  font-size: 2.5rem;
+}
+
+input::placeholder {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
