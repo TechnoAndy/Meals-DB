@@ -2,20 +2,27 @@
 
 # Capstone Module 2
 
-- In this project, We built a ...
+- This was a collaboration project, we built a MealsDB Recipe API to access great recipes from the comfort of their homes.
 
 ## Built With
 
 - HTML
 - CSS
+- JavaScipt
 - ES6
 - Gitflow
 - Visual Studio Code
+- Webpack
+
+## Live Demo 
+[Experience a live Demo 🚀]()
+
+## A brief description on the project
+[Video description]()
 
 ## Getting Started
 
 - To get a local copy up and running follow these simple example steps.
-
 ## Setup
 To get a local copy up and running follow these simple example steps.
 
@@ -26,7 +33,6 @@ To get a local copy up and running follow these simple example steps.
 `git clone(https://github.com/TechnoAndy/2nd-Capstone.git)`
 
 3.run npm install to install all the necessary dependencies including the linters
-
 ## Run tests
 Linter tests 
 
@@ -35,7 +41,6 @@ For css, run `npx hint .`
 Html, run `npx stylelint "**/*.{css,scss}"`
 
 Javascript `npx eslint .`
-
 ## Run automated functionality test
 To check for functionality with automated test run `npm test`
 ### Prerequisites
@@ -74,10 +79,11 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
--To the amazing coding partners I have come across from day 1. The most supportive team ever
--Google
--YouTube
-
+- To the amazing coding partners I have come across from day 1. The most supportive team ever
+- Google
+- YouTube
+- [Involvement-API]
+- Meals DB]
 ## 📝 License
 
 This project is [MIT](./LICENSE.MD) licensed.
