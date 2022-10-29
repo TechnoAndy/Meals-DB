@@ -87,6 +87,14 @@ h1 {
   color: white;
 }
 
+.like-btn {
+  margin-top: 1em;
+  box-shadow: 0 0 4px 3px white;
+  padding: 3px;
+  background-color: black;
+  color: white;
+}
+
 .footer {
   text-align: center;
   font-size: 1.3em;
