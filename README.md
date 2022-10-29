@@ -61,11 +61,11 @@ To check for functionality with automated test run `npm test`
 
 👤 **Author**
 
--GitHub:
+-GitHub: https://github.com/henrykgggg
 
--Twitter:
+-Twitter: https://twitter.com/KaramagaH
 
--LinkedIn:
+-LinkedIn: https://www.linkedin.com/in/karamaga-henrie-35a539232/
 
 ## 🤝 Contributing
 
