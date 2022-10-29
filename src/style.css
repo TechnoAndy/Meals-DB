@@ -12,7 +12,7 @@ header {
   color: black;
 }
 
-.nav-items {
+#nav-items {
   display: flex;
   gap: 80px;
   justify-content: center;
