@@ -14,11 +14,8 @@
 - Visual Studio Code
 - Webpack
 
-## Live Demo 
-[Experience a live Demo 🚀]()
-
 ## A brief description on the project
-[Video description]()
+[Video description](https://drive.google.com/file/d/11h7qttekDyAzw_9kc7lsTDGBxuK6bspd/view?usp=sharing)
 
 ## Getting Started
 
@@ -30,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
 
 2.Clone this repo in your terminal or git bash using the command
 
-`git clone(https://github.com/TechnoAndy/2nd-Capstone.git)`
+`git clone(https://github.com/TechnoAndy/Capstone-Project-Module-2)`
 
 3.run npm install to install all the necessary dependencies including the linters
 ## Run tests
