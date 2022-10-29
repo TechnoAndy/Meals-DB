@@ -15,7 +15,6 @@ function setComments(Obj) {
   })
     .then((response) => response.text());
 }
-
 async function showPopup(element) {
   let comments = [];
   await getComments(element.idMeal).then((fetchedComments) => {
@@ -55,6 +54,14 @@ async function showPopup(element) {
   const commentAddBtn = popupwindow.querySelector('.add-comment');
   const commentsHeader = popupwindow.querySelector('#comments-spinner');
   commentAddBtn.addEventListener('click', () => {
+    const Datee = new Date();
+    const date = `${Datee.getFullYear()}-${Datee.getMonth() + 1}-${Datee.getDate()}`;
+    commentsCotainer.innerHTML += `<div class="comment">
+      <span>[${date}]</span>
+      <span>${commentOwnerinput.value}: </span>
+      <span>${commentContentinput.value}</span>
+      </div>`;
+    commentsHeader.innerHTML = `Comments(${countComments(commentsCotainer)})`;
     const newComment = {
       item_id: element.idMeal,
       username: commentOwnerinput.value,

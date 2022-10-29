@@ -209,7 +209,7 @@ input::placeholder {
   color: red;
   border: none;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .fa-heart:hover {
@@ -222,6 +222,6 @@ input::placeholder {
 }
 
 .like-count {
-  padding-left: 0.5em;
+  padding-left: 1.5em;
   font-size: 15px;
 }

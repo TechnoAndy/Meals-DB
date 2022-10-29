@@ -52,7 +52,7 @@ const items = async () => {
          getLikes().then((x) => {
           x.forEach((y) => {
             if (y.item_id === element.idMeal) {
-              abc.innerHTML = `${y.likes}Likes`;
+              abc.innerHTML = `${y.likes} Likes`;
             }
           });
          });
@@ -60,13 +60,10 @@ const items = async () => {
          const display = () => {
           const likeBtn = document.querySelectorAll('.like-btn');
 
-          likeBtn.forEach((btn) => {
-            btn.addEventListener('click', () => {
-              postLikes(url, btn.id);
-              countLikes();
-              getLikes();
+            btnLikes.addEventListener('click', (e) => {
+              postLikes(url, btnLikes.id);
+              e.target.nextSibling.innerHTML = `${parseInt(e.target.nextSibling.innerHTML, 10) + 1 } Likes`;
             });
-          });
           };
           display();
           const btn2 = document.querySelectorAll('.like-btn');
