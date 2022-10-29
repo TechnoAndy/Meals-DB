@@ -14,11 +14,5 @@ const postLikes = async (url, id) => {
       'content-type': 'application/json; charset=UTF-8',
     },
   });
-//   const likeArray = await getLikes();
-// console.log(likeArray)
-//   likeArray.forEach((element) => {
-// console.log(element)
-//     if (Number(element.item_id) === Number(id)) { count.innerText = `${element.likes}`; }
-//   });
 };
 export { getLikes, postLikes };

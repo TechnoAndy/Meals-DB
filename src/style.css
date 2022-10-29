@@ -85,6 +85,7 @@ h1 {
   padding: 3px;
   background-color: black;
   color: white;
+  font-size: 20px;
 }
 
 .like-btn {
@@ -93,6 +94,7 @@ h1 {
   padding: 3px;
   background-color: black;
   color: white;
+  padding-left: 20em;
 }
 
 .footer {
@@ -201,4 +203,25 @@ h2 {
 
 input::placeholder {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.fa-heart {
+  color: red;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.fa-heart:hover {
+  color: white;
+}
+
+.fa-heart:active {
+  color: red;
+  font-size: 18px;
+}
+
+.like-count {
+  padding-left: 0.5em;
+  font-size: 15px;
 }
