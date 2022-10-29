@@ -3,6 +3,7 @@ import './style.css';
 import showPopup from './modules/popupwindow.js';
 import { getLikes, postLikes } from './modules/likes.js';
 import countLikes from './modules/likesCounter.js';
+import countMeals from './mealscounter.js';
 
 const url = ('https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/2yUXOXfEoNKm2RSgRRdh/likes/');
 const container = document.getElementById('recipe-section');
@@ -48,7 +49,6 @@ const items = async () => {
       });
       document.getElementById('recipe-section').appendChild(cardDiv);
 
-        // const likeCount = document.querySelector('.like-count');
          getLikes().then((x) => {
           x.forEach((y) => {
             if (y.item_id === element.idMeal) {
@@ -68,13 +68,18 @@ const items = async () => {
             });
           });
           };
-
           display();
           const btn2 = document.querySelectorAll('.like-btn');
 btn2.forEach(() => {
-/*   console.log(f.id); */
 });
       });
+      document.querySelector('#nav-items').innerHTML += `<li class="item">
+      <a
+        class="nav-link "
+        href="#recipe-section"
+        id="recipesSection"
+        >Recipes ${countMeals(container)}</a>
+      </li>`;
     }); return 1;
   } catch (error) {
     return error;
