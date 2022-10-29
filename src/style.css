@@ -151,7 +151,10 @@ h2 {
 .comment-name {
   border-radius: 0.5rem;
   font-size: larger;
-  padding: 0.5rem 10rem;
+  padding: 0.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  height: 10%;
   margin: 0.5em;
   width: 50%;
   border: solid 3px black;
@@ -160,7 +163,9 @@ h2 {
 .comment-content {
   border-radius: 0.5rem;
   font-size: larger;
-  padding: 2rem 10rem;
+  padding: 0.5em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   margin: 0.5em;
   width: 50%;
   border: solid 3px black;
