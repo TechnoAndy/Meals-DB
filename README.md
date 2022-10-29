@@ -14,11 +14,8 @@
 - Visual Studio Code
 - Webpack
 
-## Live Demo 
-[Experience a live Demo 🚀]()
-
 ## A brief description on the project
-[Video description]()
+[Video description](https://drive.google.com/file/d/11h7qttekDyAzw_9kc7lsTDGBxuK6bspd/view?usp=sharing)
 
 ## Getting Started
 
