@@ -1,8 +1,8 @@
+/* eslint-disable template-curly-spacing */
 /* eslint-disable indent */
 import './style.css';
 import showPopup from './modules/popupwindow.js';
 import { getLikes, postLikes } from './modules/likes.js';
-import countLikes from './modules/likesCounter.js';
 import countMeals from './mealscounter.js';
 
 const url = ('https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/2yUXOXfEoNKm2RSgRRdh/likes/');
@@ -58,8 +58,6 @@ const items = async () => {
          });
 
          const display = () => {
-          const likeBtn = document.querySelectorAll('.like-btn');
-
             btnLikes.addEventListener('click', (e) => {
               postLikes(url, btnLikes.id);
               e.target.nextSibling.innerHTML = `${parseInt(e.target.nextSibling.innerHTML, 10) + 1 } Likes`;
