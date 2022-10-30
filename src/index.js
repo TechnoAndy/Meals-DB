@@ -53,7 +53,6 @@ const items = async () => {
           x.forEach((y) => {
             if (y.item_id === element.idMeal) {
               abc.innerHTML = `${y.likes}Likes`;
-            
             }
           });
          });
