@@ -2,6 +2,7 @@
 import './style.css';
 import showPopup from './modules/popupwindow.js';
 import { getLikes, postLikes } from './modules/likes.js';
+import countLikes from './modules/likesCounter.js';
 
 const url = ('https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/2yUXOXfEoNKm2RSgRRdh/likes/');
 const container = document.getElementById('recipe-section');
@@ -51,7 +52,8 @@ const items = async () => {
          getLikes().then((x) => {
           x.forEach((y) => {
             if (y.item_id === element.idMeal) {
-              abc.innerHTML = `${y.likes} Likes`;
+              abc.innerHTML = `${y.likes}Likes`;
+            
             }
           });
          });
@@ -62,7 +64,7 @@ const items = async () => {
           likeBtn.forEach((btn) => {
             btn.addEventListener('click', () => {
               postLikes(url, btn.id);
-
+              countLikes();
               getLikes();
             });
           });
